@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-uifabric-dialog-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxUifabricDialog/SpfxUifabricDialogWebPart.js",
+          "manifest": "./src/webparts/spfxUifabricDialog/SpfxUifabricDialogWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxUifabricDialogWebPartStrings": "lib/webparts/spfxUifabricDialog/loc/{locale}.js"
+  }
+}
